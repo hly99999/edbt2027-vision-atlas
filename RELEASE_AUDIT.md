@@ -40,12 +40,12 @@ This audit records the bounded artifact that is prepared for the EDBT 2027 Visio
 - Liuye Hua ORCID: **0009-0000-2122-0764**, confirmed by the author and entered in the manuscript; public profile shows Liuye Hua at Xinjiang University.
 - Jiong Zheng ORCID: **pending**; no placeholder is used.
 - License files: **present** at repository root.
-- Public URL and immutable release commit/tag: **pending push** to the authorized GitHub repository `hly99999/edbt2027-vision-atlas` (planned tag `v0.1.0`).
+- Public URL: **verified** at `https://github.com/hly99999/edbt2027-vision-atlas`.
 - User-reported duplicate/overlap status: no overlap; CMT conflicts none (reported by author).
 - User-reported author review status: complete/no issues (reported by author; not independently verifiable from filesystem alone).
 - CMT submission authorization: **not granted**; no CMT submission was made.
 
-## Required after publication
+## Public release identity\n\n- Immutable tag: `v0.1.0`\n- Release commit: `0457a48cfa256098a046e9001b12d6d9249cbf05`\n- Public URL: `https://github.com/hly99999/edbt2027-vision-atlas/tree/v0.1.0`\n- Remote verification: `main` and `v0.1.0` resolve to the release commit.\n\n## Required after publication
 
 1. Record the exact commit hash reached by tag `v0.1.0` in the local release record.
 2. Recheck the public repository contents and tag after the push; keep the source-PDF, provider-cache, unreviewed theorem-batch, credential, and official-template exclusions intact.
@@ -55,4 +55,5 @@ This audit records the bounded artifact that is prepared for the EDBT 2027 Visio
 
 `EDBT2027_artifact_candidate_20261004.zip` is a convenience archive of the bounded package. SHA-256: `e7cf69b709252f86c07282dd6dace195f53e6c6639bdf1e7433e4ad1b4dd4b8a`.
 
-The archive remains local; the public immutable identity will be the GitHub repository plus tag `v0.1.0` after the author-authorized push.
+The archive remains local; the public immutable identity is the GitHub repository plus tag `v0.1.0`.
+
