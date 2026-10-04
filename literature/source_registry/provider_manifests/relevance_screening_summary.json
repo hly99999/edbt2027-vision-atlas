@@ -1,0 +1,63 @@
+{
+  "classification_counts": {
+    "ADJACENT_THEORY_HIGH_VALUE": 9,
+    "APPLICATION_ONLY": 14,
+    "DIRECT_DB_THEORY": 238,
+    "EMPIRICAL_WITH_THEORY_COMPONENT": 0,
+    "FOUNDATIONAL_DB_THEORY": 61,
+    "IRRELEVANT": 2718,
+    "SYSTEMS_WITH_THEORY": 1,
+    "UNCERTAIN": 315
+  },
+  "confidence_counts": {
+    "HIGH": 285,
+    "LOW": 3071,
+    "MEDIUM": 0
+  },
+  "counts": {
+    "canonical_families": 3356,
+    "families_missing_doi": 0,
+    "ledger_rows": 3356,
+    "network_evidence_rows": 285,
+    "network_failure_rows": 3,
+    "relevant_families": 309,
+    "title_and_taxonomy_evidence_rows": 23
+  },
+  "doi_coverage_counts": {
+    "NOT_RETURNED": 195,
+    "RETURNED_WITHOUT_ABSTRACT": 15,
+    "RETURNED_WITH_ABSTRACT": 3186
+  },
+  "evidence_source_counts": {
+    "OPENALEX_ABSTRACT": 285,
+    "TITLE_AND_TOPIC_TAXONOMY": 23,
+    "TITLE_HEURISTIC": 1,
+    "TITLE_SCOPE": 3047
+  },
+  "input_census": "venue_census_2023_2026.jsonl",
+  "input_census_sha256": "239e1118db15dfcb2d77f1e707df9f75636c09008512220e2ea7fb62bafc9490",
+  "limitations": [
+    "OpenAlex abstract evidence is limited to DOI-linked cached responses; Crossref, primary-source introduction/conclusion, and full-text evidence were not collected.",
+    "3 initial OpenAlex transport failures are retained in the cache for audit, including failures whose DOI batches were later retried.",
+    "Scores are screening-priority heuristics and do not assert theorem density, open problems, proof techniques, or novelty outcomes."
+  ],
+  "observed_at": "2026-08-28",
+  "rebuild_mode": "FROZEN_OFFLINE",
+  "schema_version": 1,
+  "topic_coverage": [
+    "enumeration_direct_random_access",
+    "containment_equivalence",
+    "constraints_chase_certain_answers",
+    "views_determinacy_qbe_learning",
+    "provenance_explanations_causality",
+    "cq_ucq",
+    "query_evaluation",
+    "cores_minimization",
+    "dynamic_incremental_complexity",
+    "width_acyclicity",
+    "uncertain_probabilistic_databases",
+    "streaming_dynamic_db_complexity",
+    "finite_model_csp_homomorphism",
+    "knowledge_compilation"
+  ]
+}

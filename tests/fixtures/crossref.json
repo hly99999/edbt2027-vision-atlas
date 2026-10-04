@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "message": {
+    "items": [{
+      "DOI": "10.1000/Atlas.2024",
+      "title": ["A Frontier for Query Containment"],
+      "author": [{"given": "Ada", "family": "Author"}, {"given": "Bert", "family": "Author"}],
+      "published-print": {"date-parts": [[2024]]},
+      "container-title": ["ICDT"],
+      "URL": "https://doi.org/10.1000/Atlas.2024"
+    }]
+  }
+}

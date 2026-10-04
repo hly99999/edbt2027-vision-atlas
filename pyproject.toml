@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "db-theory-frontier-atlas"
+version = "0.1.0"
+description = "Evidence-safe records for the Database Theory Frontier Atlas"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pypdf==6.10.0"]
+
+[project.scripts]
+dbta = "db_theory_atlas.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+
+[tool.db-theory-atlas.corpus-task3]
+python-runtime = "CPython 3.12.13"
+pdf-extractor = "pypdf 6.10.0"
+validation-normalization = "PYPDF_PAGE_TEXT_JOIN_LF_V1"
+reading-normalization = "PYPDF_PAGE_TEXT_NUL_TO_SPACE_JOIN_LF_V1"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

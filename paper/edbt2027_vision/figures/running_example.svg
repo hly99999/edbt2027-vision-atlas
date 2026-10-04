@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs>
+  <marker id="r-arrow-orange" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L0,8 L10,4 z" fill="#df7438"/></marker>
+  <marker id="r-arrow-blue" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L0,8 L10,4 z" fill="#23658e"/></marker>
+</defs>
+<style>
+  .title{font:bold 28px Arial;fill:#17324d}.head{font:bold 18px Arial;fill:#17324d}
+  .panel{fill:#ffffff;stroke:#174a6e;stroke-width:2.5}.bad{fill:#fff1ed;stroke:#d06c5c;stroke-width:2}.good{fill:#eef8ee;stroke:#6c9a69;stroke-width:2}.audit{fill:#f3eefc;stroke:#9c82c5;stroke-width:2}
+  .label{font:bold 14px Arial;fill:#36556b}.body{font:15px Arial;fill:#203642}.small{font:12px Arial;fill:#587080}.tiny{font:11px Arial;fill:#587080}.red{font:bold 13px Arial;fill:#b23434}.green{font:bold 13px Arial;fill:#4e7d45}.purple{font:bold 13px Arial;fill:#6d469f}.orange{font:bold 13px Arial;fill:#b75c2d}
+  .line{stroke:#b8c7d1;stroke-width:1.5}.chip{fill:#fff;stroke:#d06c5c;stroke-width:1.2}.chipGood{fill:#fff;stroke:#75a475;stroke-width:1.2}
+</style>
+<rect width="1200" height="700" fill="#fbfcfe"/>
+<text x="600" y="34" text-anchor="middle" class="title">Flat claim -&gt; scoped theorem -&gt; evidence-backed audit</text>
+
+<rect x="25" y="62" width="320" height="205" rx="16" class="bad"/>
+<text x="45" y="91" class="head">1  FLATTENED CLAIM</text>
+<text x="45" y="125" class="body">"Join queries can be evaluated</text><text x="45" y="147" class="body">efficiently in parallel."</text>
+<text x="45" y="178" class="small">The sentence hides the conditions</text><text x="45" y="197" class="small">that determine what is proved.</text>
+<rect x="45" y="216" width="70" height="26" rx="12" class="chip"/><text x="80" y="233" text-anchor="middle" class="tiny">query?</text>
+<rect x="125" y="216" width="70" height="26" rx="12" class="chip"/><text x="160" y="233" text-anchor="middle" class="tiny">model?</text>
+<rect x="205" y="216" width="70" height="26" rx="12" class="chip"/><text x="240" y="233" text-anchor="middle" class="tiny">rounds?</text>
+<rect x="285" y="216" width="45" height="26" rx="12" class="chip"/><text x="307" y="233" text-anchor="middle" class="tiny">?</text>
+
+<line x1="345" y1="164" x2="376" y2="164" stroke="#df7438" stroke-width="4" marker-end="url(#r-arrow-orange)"/>
+<text x="360" y="148" text-anchor="middle" class="orange">extract</text>
+
+<rect x="385" y="62" width="430" height="205" rx="16" class="good"/>
+<text x="405" y="91" class="head">2  SCOPED THEOREM RECORD</text>
+<text x="405" y="116" class="green">PAC Theorem 14</text>
+<rect x="405" y="133" width="185" height="34" rx="10" class="chipGood"/><text x="497" y="155" text-anchor="middle" class="tiny">full conjunctive join</text>
+<rect x="600" y="133" width="185" height="34" rx="10" class="chipGood"/><text x="692" y="155" text-anchor="middle" class="tiny">MPC, 3 rounds</text>
+<rect x="405" y="177" width="185" height="34" rx="10" class="chipGood"/><text x="497" y="199" text-anchor="middle" class="tiny">per-server load</text>
+<rect x="600" y="177" width="185" height="34" rx="10" class="chipGood"/><text x="692" y="199" text-anchor="middle" class="tiny">high probability</text>
+<text x="405" y="237" class="small">roles: q fixed | D input | p,r,S parameters</text>
+<text x="405" y="254" class="small">unknown axes remain UNKNOWN until evidence is found</text>
+
+<line x1="815" y1="164" x2="846" y2="164" stroke="#23658e" stroke-width="4" marker-end="url(#r-arrow-blue)"/>
+<text x="830" y="148" text-anchor="middle" class="green">bind</text>
+
+<rect x="855" y="62" width="320" height="205" rx="16" class="audit"/>
+<text x="875" y="91" class="head">3  EVIDENCE CHECK</text>
+<text x="875" y="118" class="purple">source pointer</text>
+<text x="875" y="143" class="small">Theorem 14 | PDF p.12 | Section 5</text>
+<text x="875" y="166" class="small">version:0f48322c4246924097bc</text>
+<text x="875" y="189" class="small">SHA-256: 848f00c3...595cf</text>
+<text x="875" y="221" class="green">✓ scope  ✓ bound  ✓ probability</text>
+<text x="875" y="242" class="tiny">promotion is allowed only after exact review</text>
+
+<rect x="25" y="300" width="1150" height="285" rx="16" class="panel"/>
+<text x="50" y="330" class="head">4  WHAT THE FLAT SENTENCE DROPS</text>
+<rect x="50" y="350" width="510" height="202" rx="12" fill="#fff7f4" stroke="#e3a196" stroke-width="1.5"/>
+<text x="75" y="379" class="red">scope axes</text>
+<text x="75" y="407" class="body">query fragment: Fragment(D,r,C)</text>
+<text x="75" y="432" class="body">assumptions: C adheres to spectrum r</text>
+<text x="75" y="457" class="body">solution: S solves q with respect to C</text>
+<text x="75" y="482" class="body">resource: O~(|D|/p^(1/c(S))) per server</text>
+<text x="75" y="507" class="body">semantics: three rounds, high probability</text>
+<text x="75" y="532" class="body">identity: ICDT 2025 version + source hash</text>
+
+<rect x="590" y="350" width="560" height="202" rx="12" fill="#f6fbf6" stroke="#9abe9a" stroke-width="1.5"/>
+<text x="615" y="379" class="green">field-level audit and promotion</text>
+<line x1="615" y1="397" x2="1125" y2="397" class="line"/>
+<text x="615" y="422" class="label">extract</text><text x="715" y="422" class="small">candidate fields with uncertainty</text>
+<text x="615" y="448" class="label">locate</text><text x="715" y="448" class="small">label, page, section, span, hash</text>
+<text x="615" y="474" class="label">review</text><text x="715" y="474" class="small">check scope against exact source version</text>
+<text x="615" y="500" class="label">promote</text><text x="715" y="500" class="small">sign record or retain explicit UNKNOWN</text>
+<rect x="615" y="517" width="500" height="25" rx="10" class="chipGood"/><text x="865" y="534" text-anchor="middle" class="tiny">flat wording is a search cue, never the theorem record</text>
+
+<path d="M185 585 C185 618, 450 618, 450 585" fill="none" stroke="#c74646" stroke-width="2.5" stroke-dasharray="7 6"/>
+<text x="317" y="640" text-anchor="middle" class="red">lost conditions = unsafe generalization</text>
+<path d="M760 585 C760 618, 1020 618, 1020 585" fill="none" stroke="#6c9a69" stroke-width="2.5" stroke-dasharray="7 6"/>
+<text x="890" y="640" text-anchor="middle" class="green">exact evidence = bounded promotion</text>
+<text x="600" y="684" text-anchor="middle" class="small">a theorem is a scoped, versioned, evidence-bound object</text>
+</svg>

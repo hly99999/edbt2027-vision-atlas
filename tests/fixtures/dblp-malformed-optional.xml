@@ -1,0 +1,1 @@
+<result><hits><hit id="rec/malformed"><info><title>Malformed DBLP Fields</title><authors>not-author-elements</authors><year>not-a-year</year><venue><nested/></venue><doi><nested/></doi><url>https://dblp.org/rec/malformed</url></info></hit></hits></result>

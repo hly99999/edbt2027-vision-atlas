@@ -1,0 +1,21 @@
+﻿claim_id,claim,claim_type,evidence,source,status,allowed_wording,risk,paper_section
+C01,Paper- and citation-level representations can hide theorem validity conditions.,OBSERVATION,Running example + prior-work audit,RUNNING_EXAMPLE_AUDIT.md,BOUND,can hide,low,Introduction
+C02,Database-theory theorem scope is multi-axial.,OBSERVATION,Audited schema and 127 records,batch-001-020.jsonl,BOUND,is represented here through interacting axes,low,Introduction
+C03,We argue for scoped theorems and source evidence as first-class objects.,VISION,Design argument,VISION_POSITIONING.md,BOUND,we argue,low,Introduction
+C04,"ORKG supports contribution-level machine-actionable knowledge, comparison, provenance and versions.",RELATED_WORK,Primary ORKG papers,10.1145/3360901.3364435,BOUND,supports,low,Prior work
+C05,"Micropublications model claims, evidence and typed argument relations.",RELATED_WORK,Primary paper,10.1186/2041-1480-5-28,BOUND,models,low,Prior work
+C06,"Nanopublications separate assertion, provenance and publication information.",RELATED_WORK,Primary paper,10.3233/ISU-2010-0613,BOUND,separate,low,Prior work
+C07,Formal libraries provide machine-actionable verified theorem dependencies.,RELATED_WORK,Mizar/OMDoc sources,10.1007/s10817-017-9440-6,BOUND,provide within formalized corpora,low,Prior work
+C08,"The proposed knowledge unit contains ScopedTheorem, EvidencePointer and PaperVersion.",DESIGN_PROPOSAL,Schema proposal,paper source,BOUND,we propose,low,Atlas
+C09,TypedRelation and ProofTechnique support qualified navigation rather than citation co-occurrence.,DESIGN_PROPOSAL,Schema proposal,paper source,BOUND,are intended to support,medium,Atlas
+C10,"The corpus contains 3,737 raw observations and 3,356 canonical families.",PROTOTYPE_FACT,Recomputed statistics,prototype_statistics.json,BOUND,contains,low,Feasibility
+C11,309 canonical families were marked relevant by deterministic screening.,PROTOTYPE_FACT,Recomputed statistics,prototype_statistics.json,BOUND,were marked relevant,medium,Feasibility
+C12,125 papers have FULL_SCAN and 80 have DEEP_READ ledger status.,PROTOTYPE_FACT,Frozen read-depth ledger,prototype_statistics.json,BOUND,have ledger status,low,Feasibility
+C13,The audited batch has 20 papers and 127 theorem/proposition records.,PROTOTYPE_FACT,Recomputed statistics,prototype_statistics.json,BOUND,contains,low,Feasibility
+C14,All 127 audited theorem records contain source locations.,PROTOTYPE_FACT,Recomputed statistics,prototype_statistics.json,BOUND,contain,low,Feasibility
+C15,"These counts establish bounded construction feasibility, not effectiveness or completeness.",LIMITATION,Evidence boundary,EVIDENCE_BOUNDARY.md,BOUND,establish bounded feasibility only,low,Feasibility
+C16,Semi-automatic extraction requires uncertainty-aware candidate generation and human promotion.,RESEARCH_AGENDA,Agenda design,paper source,BOUND,requires research on,low,Agenda
+C17,Scope verification can be evaluated axis-by-axis against expert gold records.,RESEARCH_AGENDA,Evaluation proposal,paper source,BOUND,can be evaluated,low,Agenda
+C18,Open-problem status must be versioned and evidence-qualified.,DESIGN_PROPOSAL,Risk analysis,paper source,BOUND,should be,medium,Agenda
+C19,The artifact excludes copyrighted source PDFs.,PROTOTYPE_FACT,Release boundary,ARTIFACT_STATEMENT.md,BOUND,excludes,low,Artifacts
+C20,"Author identities, affiliations and ORCIDs remain submission blockers.",LIMITATION,Package audit,FINAL_SUBMISSION_AUDIT.md,BOUND,remain,low,Submission

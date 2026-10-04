@@ -1,0 +1,11 @@
+{
+  "results": [{
+    "id": "https://openalex.org/W123",
+    "display_name": "A Frontier for Query Containment",
+    "publication_year": 2024,
+    "doi": "https://doi.org/10.1000/atlas.2024",
+    "authorships": [{"author": {"display_name": "Ada Author"}}, {"author": {"display_name": "Bert Author"}}],
+    "primary_location": {"landing_page_url": "https://publisher.example/atlas", "source": {"display_name": "ICDT"}},
+    "best_oa_location": {"pdf_url": "https://arxiv.org/pdf/2401.00001"}
+  }]
+}

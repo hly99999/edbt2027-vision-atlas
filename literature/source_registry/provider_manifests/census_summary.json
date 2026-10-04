@@ -1,0 +1,59 @@
+{
+  "counts": {
+    "canonical_papers": 3356,
+    "canonical_versions": 3396,
+    "crosscheck_only": 2991,
+    "crossref_verified": 319,
+    "excluded_canonical_papers": 237,
+    "included_canonical_papers": 3119,
+    "metadata_conflicts": 77,
+    "raw_observations": 3737
+  },
+  "frozen_cache": "normalized_provider_responses_2023_2026.jsonl",
+  "frozen_cache_sha256": "3c9eafe33c12b28ca8327326e3605d6e2ea6aedc4f74603fcb1120efaa8023f6",
+  "limitations": [
+    "2026 is a partial year observed on 2026-08-28.",
+    "DBLP and OpenAlex are cross-check sources; inconsistent source/year/DOI observations remain auditable but cannot be promoted.",
+    "Metadata-level systems exclusions are conservative and remain available for Task 2 screening review."
+  ],
+  "observed_at": "2026-08-28",
+  "rebuild_mode": "FROZEN_OFFLINE",
+  "routing": [
+    "official DOI/publisher metadata",
+    "Crossref",
+    "arXiv",
+    "OpenAlex",
+    "DBLP cross-check"
+  ],
+  "schema_version": 2,
+  "source_policy": {
+    "T1": [
+      "OFFICIAL",
+      "CROSSREF",
+      "ARXIV"
+    ],
+    "T2": [
+      "OPENALEX",
+      "DBLP"
+    ],
+    "T3_used": false
+  },
+  "venue_families": [
+    "ICDT",
+    "PODS",
+    "SIGMOD_PACMMOD",
+    "TODS",
+    "JACM",
+    "LMCS",
+    "ICALP",
+    "CSL",
+    "LICS",
+    "KR_AI_LOGIC"
+  ],
+  "year_window": [
+    2023,
+    2024,
+    2025,
+    2026
+  ]
+}

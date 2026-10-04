@@ -1,0 +1,33 @@
+﻿work,year,venue,knowledge unit,paper-level,claim-level,theorem-level,scope representation,assumptions,complexity regime,version lineage,evidence pointer,proof technique,typed relations,open-problem support,human verification,domain,closest overlap,remaining gap
+Open Research Knowledge Graph,2020,JCDL,research contribution,yes,yes,limited,flexible predicates,optional,no,yes,statement/provenance,no,yes,no,crowd,general,DIRECT,No mandatory DB-theory theorem-scope contract
+ORKG: Next Generation Infrastructure,2019,arXiv,research contribution,yes,yes,limited,flexible predicates,optional,no,yes,provenance,no,yes,no,crowd,general,DIRECT,No fixed complexity/query/parameter axes
+Towards a Knowledge Graph for Science,2018,DL4KG@ISWC,paper/contribution,yes,yes,no,generic semantic graph,no,no,limited,citation/provenance,no,yes,no,human+automatic,general,HIGH,Not theorem-scope centered
+ORKG Requirements Analysis,2021,arXiv,contribution/comparison,yes,yes,no,domain templates,optional,no,yes,source links,no,yes,no,human,general,HIGH,Requirements do not prescribe theorem audit gates
+ORKG Tailored Forming Use Case,2024,Data Science Journal,domain contribution,yes,yes,no,domain template,some,no,yes,source links,no,yes,no,expert,manufacturing,MEDIUM,"Domain template, not theorem scope"
+Scholarly Knowledge Graphs: Review,2023,J. Big Data,paper/entity/claim,yes,some,some,heterogeneous,some,rare,some,varies,some,yes,rare,varies,general,MEDIUM,Survey confirms fragmentation of capabilities
+Generating Knowledge Graphs by Mining Scientific Literature,2021,FGCS,entity/relation,yes,some,no,ontology relations,no,no,no,sentence spans,no,yes,no,automatic,general,MEDIUM,Extraction pipeline lacks formal theorem scope
+S2ORC,2020,ACL,paper/section/span,yes,no,no,document structure,no,no,version metadata,citation spans,no,citations,no,automatic,general,HIGH,Corpus substrate rather than theorem model
+OpenCitations Meta,2024,Quantitative Science Studies,bibliographic entity,yes,no,no,bibliographic metadata,no,no,yes,citation provenance,no,citation,no,curated,general,MEDIUM,Bibliographic not theorem-level
+OpenAIRE Research Graph,2023,JCDL,research product,yes,no,no,research-product schema,no,no,yes,provenance links,no,typed graph,no,curated+automatic,general,MEDIUM,Coarse knowledge unit
+EmpiRE KG,2023,ESEM,empirical claim,yes,yes,no,study context,some,no,limited,paper evidence,no,typed,no,human,software engineering,MEDIUM,"Empirical results, not formal theorem scopes"
+The Anatomy of a Nanopublication,2010,Information Services & Use,assertion,no,yes,limited,arbitrary assertion,optional,no,publication info,assertion graph,no,RDF,no,publisher,general,DIRECT,Fine provenance but scope not prescribed
+Decentralized Nanopublications,2016,PeerJ CS,assertion,no,yes,limited,arbitrary assertion,optional,no,trusty URI lineage,assertion/provenance,no,RDF,no,distributed,general,DIRECT,Immutable assertion differs from theorem/version lineage
+Nanopublication Resource,2018,arXiv,assertion/index,no,yes,limited,arbitrary assertion,optional,no,yes,trusty URI,no,RDF links,no,publisher,general,HIGH,No DB-theory axes
+Micropublications,2014,J. Biomedical Semantics,claim/evidence graph,no,yes,limited,qualified claim,yes,no,claim lineage,claim-level evidence,some,support/challenge,no,human,biomedicine,DIRECT,Closest claim/evidence model; no formal scope regime
+PAV Ontology,2013,J. Biomedical Semantics,digital artifact,yes,no,no,provenance/version,no,no,yes,provenance,no,typed,no,publisher,general,DIRECT,Strong provenance component only
+Research Object Ontology,2015,Web Semantics,research object,yes,some,no,aggregated workflow,some,no,yes,provenance,no,typed,no,human,general,MEDIUM,Workflow object not scoped theorem
+Semantic Publishing,2009,PLOS Comp Bio,document/statement,yes,some,no,semantic annotations,no,no,limited,citation context,no,typed,no,author,general,MEDIUM,Publishing vision lacks audit contract
+Document Components Ontology,2016,Semantic Web,document component,yes,no,no,document structure,no,no,no,structural pointer,no,typed,no,automatic,general,MEDIUM,Useful locator vocabulary only
+Genuine Semantic Publishing,2017,Data Science,formal statement,no,yes,some,semantic statement,some,no,yes,provenance,some,typed,no,author,general,HIGH,Broad semantic ideal; no DB-specific scope schema
+OntoMathPRO,2022,Doklady Mathematics,theorem/concept,yes,no,yes,math ontology,some,no,limited,document relation,proof relation,typed,no,expert,mathematics,DIRECT,Theorem classes but not source-bound informal scopes
+OntoMath Ecosystem,2017,arXiv,math object,yes,no,yes,ontology/formula,some,no,limited,document link,some,typed,no,expert,mathematics,HIGH,No complexity-regime contract
+OMDoc/MMT Knowledge Interoperability,2018,CICM,formal declaration,no,no,yes,formal theory graph,formal,no,yes,formal source,proof object,typed imports,no,formal verification,mathematics,DIRECT,Requires formalization; different coverage target
+Mizar Mathematical Library,2018,JAR,formal theorem,no,no,yes,formal dependencies,formal,no,yes,formal location,proof checked,typed dependency,no,proof checker,mathematics,DIRECT,"Verified library, not informal literature audit"
+Retrieval of Mathematical Knowledge,2015,arXiv,formula/theorem,yes,no,yes,formal/semantic search,some,no,limited,document/formula,some,relations,no,system,mathematics,HIGH,Retrieval does not preserve DB complexity scope
+Mathematical Information Retrieval,2024,Foundations and Trends / arXiv,formula/document,yes,no,some,formula/context,some,no,limited,passage,no,similarity,no,automatic,mathematics,MEDIUM,Search target not audited theorem record
+ASReview,2021,Nature Machine Intelligence,paper,yes,no,no,screening labels,no,no,no,paper decision,no,no,no,human-in-loop,general,HIGH,Selects papers rather than representing results
+ASReview LAB v2,2025,Patterns,paper,yes,no,no,screening state,no,no,yes,decision log,no,no,no,human-in-loop,general,MEDIUM,Workflow provenance only
+SciFact,2020,EMNLP,claim+rationale,yes,yes,no,entail/refute,no,no,no,evidence sentences,no,labels,no,annotators,science,HIGH,"Benchmark instance, not persistent theorem graph"
+SciFact-Open,2022,Findings EMNLP,claim+rationale,yes,yes,no,entail/refute,no,no,no,evidence sentences,no,labels,no,annotators,science,HIGH,Open-domain verification lacks formal scope
+MultiVerS,2022,Findings NAACL,claim+rationale,yes,yes,no,verification labels,no,no,no,abstract rationale,no,labels,no,automatic,biomedicine,MEDIUM,"Model, not knowledge infrastructure"
+Micropublication/Nanopublication Field Study,2023,PeerJ CS,claim/assertion,no,yes,limited,formalized claim,some,no,yes,provenance,some,typed,no,human,general,HIGH,"Shows complementary standards, not full scope model"

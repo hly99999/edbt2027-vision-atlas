@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result><hits><hit id="journals/example/Author24">
+  <info>
+    <title>A Frontier for Query Containment</title>
+    <authors><author>Ada Author</author><author>Bert Author</author></authors>
+    <year>2024</year><venue>ICDT</venue><doi>10.1000/atlas.2024</doi>
+    <url>https://dblp.org/rec/journals/example/Author24</url>
+  </info>
+</hit></hits></result>
