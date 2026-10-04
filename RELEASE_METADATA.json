@@ -17,5 +17,6 @@
   "candidate_zip": "EDBT2027_artifact_candidate_20261004.zip",
   "candidate_zip_sha256": "e7cf69b709252f86c07282dd6dace195f53e6c6639bdf1e7433e4ad1b4dd4b8a",
   "candidate_zip_bytes": 2690340,
-  "license_file": "LICENSE; LICENSE-CC-BY-4.0.txt"
+  "license_file": "LICENSE; LICENSE-CC-BY-4.0.txt",
+  "release_verified_on": "2026-10-04"
 }
