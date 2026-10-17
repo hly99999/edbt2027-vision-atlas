@@ -48,7 +48,7 @@ This audit records the bounded artifact that is prepared for the EDBT 2027 Visio
 ## Public release identity
 
 - Immutable tag: `v0.1.1`
-- Release commit: recorded in `RELEASE_METADATA.json` after the v0.1.1 tag is created.
+- Release commit: `8f4955bf559243bfb725fef9297e7f71a024ff15`
 - Public URL: `https://github.com/hly99999/edbt2027-vision-atlas/tree/v0.1.1`
 - Remote verification: `main` and `v0.1.1` resolve to the release commit.
 

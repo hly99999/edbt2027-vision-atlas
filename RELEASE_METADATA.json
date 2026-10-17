@@ -2,7 +2,7 @@
   "generated_on": "2026-10-17",
   "source_branch": "edbt2027-vision-paper",
   "source_commit": "8ab8229c8dab5fe8697c0c04a9e781aba7d20509",
-  "release_commit": null,
+  "release_commit": "8f4955bf559243bfb725fef9297e7f71a024ff15",
   "public_url": "https://github.com/hly99999/edbt2027-vision-atlas",
   "package_root": ".",
   "included_files": 125,
@@ -12,10 +12,11 @@
   "source_pdfs_included": false,
   "provider_payload_caches_included": false,
   "local_paths_scan": "PASS: no workspace/user paths or credentials; synthetic file-path literals occur only in path-validation tests",
-  "public_release": false,
+  "public_release": true,
   "candidate_zip": "EDBT2027_artifact_candidate_20261017.zip",
   "candidate_zip_sha256": "7a3a5d984809433310611a41531daeab6b6cca32c258546e171a31e0466a4ee1",
   "candidate_zip_bytes": 2688552,
   "license_file": "LICENSE; LICENSE-CC-BY-4.0.txt",
-  "release_tag": "v0.1.1"
+  "release_tag": "v0.1.1",
+  "release_verified_on": "2026-10-17"
 }
