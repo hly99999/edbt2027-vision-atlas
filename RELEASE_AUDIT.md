@@ -1,6 +1,6 @@
 # Release Staging Audit
 
-Generated: 2026-10-04
+Generated: 2026-10-17
 
 ## Scope
 
@@ -17,7 +17,7 @@ This audit records the bounded artifact that is prepared for the EDBT 2027 Visio
 | Audited theorem records | `data/theorems/fragments/batch-001-020.jsonl`, `claim-inventory-001-020.jsonl`, `coverage-001-020.jsonl` | Include; this is the only theorem batch in the release. |
 | Read-depth provenance | `literature/fulltext_ledgers/read_depth_2026_08_30.json` | Include; contains hashes/pointers, not source PDF bytes. |
 | EDBT artifact/audit documentation | `artifacts/edbt2027/`, `docs/edbt2027_vision/`, `reports/edbt2027/` | Include; bounded claims and limitations retained. |
-| Manuscript source | `paper/edbt2027_vision/main.tex`, `references.bib` | Include as source context; author and Liuye Hua ORCID are entered; Jiong Zheng ORCID remains pending. |
+| Manuscript source | `paper/edbt2027_vision/main.tex`, `references.bib` | Include as source context; author and both ORCIDs are entered; Jiong Zheng is the corresponding author. |
 | Original figures | `paper/edbt2027_vision/figures/*.svg` and generated `*.pdf` | Include; generated locally and not external source PDFs. |
 | Licenses | `LICENSE`, `LICENSE-CC-BY-4.0.txt` | Include; Apache-2.0 covers code and CC BY 4.0 covers documentation/derived data. |
 
@@ -38,7 +38,7 @@ This audit records the bounded artifact that is prepared for the EDBT 2027 Visio
 - EDBT package validator: **PASS** (125 package files; claims=20, related_work=32, direct_threats=9, pdf_pages=7).
 - Local path/credential scan: **PASS** for the package boundary.
 - Liuye Hua ORCID: **0009-0000-2122-0764**, confirmed by the author and entered in the manuscript; public profile shows Liuye Hua at Xinjiang University.
-- Jiong Zheng ORCID: **pending**; no placeholder is used.
+- Jiong Zheng ORCID: **0009-0005-7227-5059**, entered in the manuscript metadata; corresponding author.
 - License files: **present** at repository root.
 - Public URL: **verified** at `https://github.com/hly99999/edbt2027-vision-atlas`.
 - User-reported duplicate/overlap status: no overlap; CMT conflicts none (reported by author).
@@ -47,10 +47,10 @@ This audit records the bounded artifact that is prepared for the EDBT 2027 Visio
 
 ## Public release identity
 
-- Immutable tag: `v0.1.0`
-- Release commit: `0457a48cfa256098a046e9001b12d6d9249cbf05`
-- Public URL: `https://github.com/hly99999/edbt2027-vision-atlas/tree/v0.1.0`
-- Remote verification: `main` and `v0.1.0` resolve to the release commit.
+- Immutable tag: `v0.1.1`
+- Release commit: recorded in `RELEASE_METADATA.json` after the v0.1.1 tag is created.
+- Public URL: `https://github.com/hly99999/edbt2027-vision-atlas/tree/v0.1.1`
+- Remote verification: `main` and `v0.1.1` resolve to the release commit.
 
 ## Post-publication status
 
@@ -58,6 +58,6 @@ The public release identity is recorded above. Keep CMT submission blocked until
 
 ## Local archive candidate
 
-`EDBT2027_artifact_candidate_20261004.zip` is a convenience archive of the bounded package. SHA-256: `e7cf69b709252f86c07282dd6dace195f53e6c6639bdf1e7433e4ad1b4dd4b8a`.
+`EDBT2027_artifact_candidate_20261017.zip` is a convenience archive of the bounded package. SHA-256: `7a3a5d984809433310611a41531daeab6b6cca32c258546e171a31e0466a4ee1`.
 
-The archive remains local; the public immutable identity is the GitHub repository plus tag `v0.1.0`.
+The archive remains local; the public immutable identity is the GitHub repository plus tag `v0.1.1`.

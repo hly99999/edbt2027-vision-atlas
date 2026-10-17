@@ -31,4 +31,4 @@ The EDBT 2027 official LaTeX template is not redistributed here; obtain it from 
 
 ## Release identity
 
-The immutable release tag is `v0.1.0`. The public URL is `https://github.com/hly99999/edbt2027-vision-atlas`. The exact commit reached by that tag is recorded in the local release record after the GitHub push. This repository is the artifact only; CMT submission remains a separate author-controlled action.
+The immutable release tag is `v0.1.1`. The public URL is `https://github.com/hly99999/edbt2027-vision-atlas`. The exact commit reached by that tag is recorded in the local release record after the GitHub push. This repository is the artifact only; CMT submission remains a separate author-controlled action.
